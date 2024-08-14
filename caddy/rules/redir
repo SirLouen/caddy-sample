@@ -1,0 +1,4 @@
+(add-www) {
+        @{args[0]} host {args[0]}
+        redir @{args[0]} http://www.{args[0]}{uri}
+}

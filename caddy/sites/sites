@@ -1,0 +1,2 @@
+import /etc/caddy/configs/site1 test.local
+import /etc/caddy/configs/site2 test2.local

@@ -1,0 +1,9 @@
+import /etc/caddy/sites/*
+
+www.test.local:80 {
+    respond "Hello"
+}
+
+www.test2.local:80 {
+    respond "Hello"
+}

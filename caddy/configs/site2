@@ -1,0 +1,5 @@
+import /etc/caddy/rules/*
+
+{args[0]}:80 {
+    import add-www {args[0]}
+}
